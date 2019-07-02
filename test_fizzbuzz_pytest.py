@@ -8,3 +8,8 @@ def test_is_divisible_by_3():
 
 def test_is_divisible_by_5():
     assert fizzbuzz(5) == 'Buzz'
+
+def test_returns_number():
+    assert fizzbuzz(13) == 13
+    assert fizzbuzz(1) == 1
+    assert fizzbuzz(2) == 2
