@@ -7,3 +7,13 @@ def fizzbuzz(n):
         return 'Buzz'
     else:
         return n
+
+
+def play():
+    n = 0
+
+    while n <= 100:
+        print(fizzbuzz(n))
+        n += 1
+
+play()
